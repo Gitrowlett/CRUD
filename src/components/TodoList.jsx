@@ -89,7 +89,7 @@ export function TodoList(){
             
             <div className="input-group mt-4 mb-3">
                 <input ref={taskRef} type="text" placeholder="Agregar una Tarea..." className="form-control"></input>
-                <button onClick={agregarTarea} className="btn btn-succes">
+                <button onClick={agregarTarea} className="btn btn-success">
                     <i className="bi bi-plus-square"></i>
                 </button>
                 <button onClick={eliminarTareasCompletadas} className="btn btn-danger">
